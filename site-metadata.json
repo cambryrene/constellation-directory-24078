@@ -5,7 +5,7 @@
         "type": "header",
         "template": "header",
         "title": "Constellation Club Business Directory",
-        "tagline": "Minimal and clean blog theme",
+        "tagline": "",
         "logo_img_alt": "Fjord Logo",
         "background_img": "/images/modern-panda.jpg",
         "has_nav": true,
