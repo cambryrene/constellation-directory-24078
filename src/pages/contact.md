@@ -4,6 +4,15 @@ img_path: "/images/constellation-club-add-your-business.jpg"
 form_id: contactForm
 form_action: "/success"
 form_fields:
+- input_type: text
+  name: Areas served
+  label: Areas served
+  default_value: ex. "Digitally worldwide" or "Europe"
+  type: form_field
+  options: []
+  is_required: false
+  logo: ''
+  link: ''
 - type: form_field
   template: form_field
   input_type: text
@@ -55,6 +64,15 @@ form_fields:
   name: Link
   label: Link
   default_value: ''
+  options: []
+  is_required: false
+  logo: ''
+  link: ''
+- input_type: text
+  name: Location
+  label: Location
+  default_value: ex. "USA", "Florida", or "World Wide Web"
+  type: form_field
   options: []
   is_required: false
   logo: ''
