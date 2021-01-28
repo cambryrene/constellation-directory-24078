@@ -50,3 +50,13 @@ fields:
   default: form_field
   config:
     required: true
+- name: logo
+  type: file
+  config:
+    maxSize: 64
+  label: Logo
+- name: link
+  type: text
+  config:
+    required: false
+  label: Link
