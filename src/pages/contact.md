@@ -97,4 +97,4 @@ subtitle: 'Add your business to the directory by submitting the form below. Only
 excerpt: Submit your business to the Constellation Club Directory.
 
 ---
-###### Any personally-identifiable information (PII) will not be displayed in a publicly-accessible way as per your country's privacy laws. All information submitted (besides the contact email address) will appear as part of the business listing.
+Any personally-identifiable information (PII) will not be displayed in a publicly-accessible way as per your country's privacy laws. All information submitted (besides the contact email address) will appear as part of the business listing.
