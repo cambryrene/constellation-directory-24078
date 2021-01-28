@@ -4,15 +4,6 @@ img_path: "/images/constellation-club-add-your-business.jpg"
 form_id: contactForm
 form_action: "/success"
 form_fields:
-- input_type: textarea
-  name: test
-  logo: "/images/constellation-club-add-your-business.jpg"
-  type: form_field
-  label: test
-  default_value: ''
-  options: []
-  is_required: false
-  link: ''
 - type: form_field
   template: form_field
   input_type: text
@@ -50,6 +41,15 @@ form_fields:
   default_value: ''
   logo: ''
   link: ''
+- input_type: textarea
+  name: Describe Your Business
+  label: Describe Your Business
+  type: form_field
+  default_value: ''
+  options: []
+  is_required: false
+  logo: ''
+  link: ''
 - input_type: text
   type: form_field
   name: Link
@@ -68,6 +68,15 @@ form_fields:
   is_required: false
   logo: ''
   link: ''
+- input_type: text
+  name: Cover image
+  label: What image would you like to feature for your business?
+  default_value: URL for cover image
+  type: form_field
+  options: []
+  is_required: false
+  logo: ''
+  link: ''
 - type: form_field
   template: form_field
   input_type: checkbox
@@ -80,10 +89,12 @@ form_fields:
   is_required: true
   logo: ''
   link: ''
-submit_label: Send Message
+submit_label: 'Submit your business '
 template: contact
-subtitle: ''
-excerpt: Submit your business to the Constellation Club Directory
+subtitle: 'Add your business to the directory by submitting the form below. Only Constellation
+  Club members'' businesses will be listed, so we will verify your membership before
+  posting. '
+excerpt: Submit your business to the Constellation Club Directory.
 
 ---
-To get in touch fill the form below.
+###### Any personally-identifiable information (PII) will not be displayed in a publicly-accessible way as per your country's privacy laws. All information submitted (besides the contact email address) will appear as part of the business listing.
