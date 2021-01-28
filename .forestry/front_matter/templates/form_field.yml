@@ -46,7 +46,7 @@ fields:
   name: type
   label: Object Type
   description: The type of the object
-  hidden: true
+  hidden: false
   default: form_field
   config:
     required: true
