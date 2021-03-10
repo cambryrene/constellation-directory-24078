@@ -12,11 +12,12 @@ fields:
   name: subtitle
   label: Subtitle
   description: The text shown just below the post title
-- type: datetime
-  name: date
-  label: Date
-  config:
-    required: true
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+  description: Add relevant tags (ex. "tarot", or "astrology"). This will add content
+    to the categories on the site.
 - type: file
   name: thumb_img_path
   label: Image (Blog Feed)
@@ -47,7 +48,6 @@ fields:
   config:
     required: true
 pages:
-- src/pages/posts/basic-rules-for-walking-in-the-mountains.md
 - src/pages/posts/fox-village-in-japan.md
 - src/pages/posts/fragments-of-iceland.md
 - src/pages/posts/moving-to-new-york.md
